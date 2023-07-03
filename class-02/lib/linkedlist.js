@@ -183,15 +183,12 @@ class linkedList{
     }
 
     kthFromEnd(k){  //https://www.youtube.com/watch?v=dKFvYm3P6OY&t=476s video explain the kth
-        let p1 = this.head
+        let p1= this.head
         let p2 = this.head
-        let count= 0
-        let current= this.head
+        let count=0
         while(k > count){
             count++
-            current= current.next
-            p2=current
-    
+            p2=p2.next
         }
         while(p2){
             p1= p1.next
@@ -202,18 +199,19 @@ class linkedList{
     }
 
     // print linkedList
-    print(){
-        let result= []
-        let current = this.head
+    // print(){
+    //     let result= []
+    //     let current = this.head
   
-        while(current){
-            let val=`{ ${current.value} } ->`
-            result.push(val)
-            current= current.next
-        }
-        return result
-    }
+    //     while(current){
+    //         let val=`{ ${current.value} } ->`
+    //         result.push(val)
+    //         current= current.next
+    //     }
+    //     return result
+    // }
 
+ 
     // print(){
     //     let current= this.head
     //     while(current){
@@ -222,5 +220,8 @@ class linkedList{
     //     }
     // }
 }
+
+
+
 
 module.exports= linkedList;
