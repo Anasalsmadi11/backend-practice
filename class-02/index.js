@@ -1,6 +1,6 @@
 'use strict';
 
-// const node= require('./lib/node')
+// let Node= require('./lib/node')
 
 const linkedList= require('./lib/linkedlist')
 
@@ -49,17 +49,45 @@ function zipLists(list1, list2) {
    }
   
  
- const list1 = new linkedList();
-list1.insertLast(1);
-list1.insertLast(3);
-list1.insertLast(2);
+   const list1 = new linkedList();
+   list1.insertLast(1);
+   list1.insertLast(3);
+   list1.insertLast(2);
+   
+   const list2 = new linkedList();
+   list2.insertLast(5);
+   list2.insertLast(9);
+   list2.insertLast(4);
+   
+   console.log(zipLists(list1,list2))
+   
+//++++++++++++++++++++++++++++++++++++++++++++++++++
 
-const list2 = new linkedList();
-list2.insertLast(5);
-list2.insertLast(9);
-list2.insertLast(4);
+ function test(list,n){
+   console.log(list.head.value)
+  }
+  const list= new linkedList()
+  list.insertLast(15)
+ list.insertLast(14)
+ test(list,2)
 
- console.log(zipLists(list1,list2))
-
-//    console.log(zipLists(list1, list2).toString());
- 
+ //++++++++++++++++++++++++++++++++++++++++++++++++++
+//   const newNode= new Node(50)
+//  function addAT(list,index){
+//   if(!list.head){
+//     list.head=newNode
+//   }else{
+//     let current= list.head
+//     let previous=null
+//     let count=0
+//     while(index >count){
+//       count++
+//       previous=current
+//       current= current.next
+//     }
+//     previous.next= newNode
+//     newNode.next= current
+//   }
+//   return list.toString() 
+//  }
+//  console.log(addAT(list,1))
