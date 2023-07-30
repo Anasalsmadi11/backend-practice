@@ -1,0 +1,25 @@
+
+{
+    "development": {
+      "username": "your_mysql_username",
+      "password": "your_mysql_password",
+      "database": "chatDB",
+      "host": "localhost",
+      "dialect": "mysql"
+    },
+    "test": {
+      "username": "your_mysql_username",
+      "password": "your_mysql_password",
+      "database": "chatDB_test",
+      "host": "localhost",
+      "dialect": "mysql"
+    },
+    "production": {
+      "username": "your_mysql_username",
+      "password": "your_mysql_password",
+      "database": "chatDB_production",
+      "host": "localhost",
+      "dialect": "mysql"
+    }
+  }
+  
