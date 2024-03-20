@@ -5,13 +5,13 @@ const ioClient= require('socket.io-client')
 const host= `http://localhost:${port}`
 const socket= ioClient.connect(host)
 
-socket.on('sayHi', (payload)=>{
-    console.log('server said hi and the payload is ' + payload.name)
-
-    
-})
+socket.emit('sayHi', {name: "kyoko otonashi"})
 
 setTimeout(() => {
     
     socket.emit('bye', {phrase:'see you again'})
 }, 3000);
+
+    socket.on('att', (payload)=>{
+    console.log('hi from the client', payload.phrase)
+})
