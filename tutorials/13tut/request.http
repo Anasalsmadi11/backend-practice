@@ -1,0 +1,17 @@
+GET http://localhost:8000/logout
+Content-Type: application/json
+
+# {
+#   "username":"Hinata",
+#   "password":"123"
+# }
+
+
+# POST http://localhost:8000/employee
+# Content-Type: application/json
+# authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRzdW5hZGUiLCJpYXQiOjE3Mzk2MjI5MzIsImV4cCI6MTczOTYyMjk2Mn0.c1hpKHD0lt4gOrMXqo_eytQtplqxp_JkVhgxU-x29yM
+
+# {
+#   "firstName":"hinata",
+#   "lastName":"hyuga"
+# }

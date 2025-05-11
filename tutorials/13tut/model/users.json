@@ -1,0 +1,30 @@
+[
+  {
+    "username": "Ino",
+    "password": "$2b$05$3qdRQFPtGKyiGdObjchCV.GZkBZi0ZQhFvvghJzL2wdO.GJdGpO6G",
+    "roles":{
+      "User":2002
+    }
+  },
+  {
+    "username": "tsunade",
+    "password": "$2b$05$2JvcWUO9KH3eRClUnZ6aT.KoWa2ATfCI4nuxasSOB4Hvmc0otxSCe",
+    
+    "roles":{
+      "Editor":1994,
+      "User":2002
+    },
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRzdW5hZGUiLCJpYXQiOjE3Mzk2NDY1ODUsImV4cCI6MTczOTczMjk4NX0.1dokkF-bHl44SDc3y5G3UVU1tjULePHYQQhK4r4dPk0"
+  },
+  {
+    "username": "Hinata",
+    "password": "$2b$05$477yRvp/ynGw8.rSpZK8HeIReUljNXyhJXEoqlLlt5VzeTTG07iNy",
+   
+    "roles":{
+      "Admin":1986,
+      "Editor":1994,
+      "User":2002
+    },
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkhpbmF0YSIsImlhdCI6MTczOTY0NjYxMiwiZXhwIjoxNzM5NzMzMDEyfQ.kF-yib8y_13WjZ8hHcPpI1SaHB0kgTMyHz1CAzSo9e4"
+  }
+]
